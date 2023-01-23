@@ -1,0 +1,26 @@
+.container{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 70px;
+}
+.container .slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .slider-img{
+    width: 289px;
+    height: 353px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.container .slider-img img{
+    overflow: hidden;
+    width: 100%;
+}
+.container .arrow{
+    padding: 25px;
+}
+#leftArrow img{
+    transform: rotate(180deg);
+}

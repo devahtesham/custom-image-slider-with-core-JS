@@ -10,7 +10,7 @@
 }
 .container .slider-img{
     width: 289px;
-    height: 353px;
+    height: auto;
     border-radius: 40px;
     overflow: hidden;
 }
@@ -23,4 +23,10 @@
 }
 #leftArrow img{
     transform: rotate(180deg);
+}
+.slider-img img{
+    display: none;
+}
+.slider-img img:first-child{
+    display: block;
 }
